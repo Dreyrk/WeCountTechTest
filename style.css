@@ -27,7 +27,7 @@ main {
 
 .card {
   margin: 0;
-  width: 60%;
+  width: 40%;
   height: 55%;
   padding: 4%;
   padding-top: 4%;
@@ -38,7 +38,7 @@ main {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .class {
@@ -47,9 +47,11 @@ main {
   width: 30%;
   height: 20%;
   border-radius: 60px;
+  padding: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
 }
 
 h1 {
@@ -88,11 +90,26 @@ h1 {
 }
 .circle {
   align-self: center;
-  width: 12%;
-  height: 70%;
+  width: 18%;
+  height: 90%;
   border-radius: 50%;
-  margin-right: 10px;
-  background-color: #7b71ef;
+  background-color: #e5e7eb;
+  position: relative;
+}
+
+#circle1 {
+  background-color: lightpink;
+}
+#circle2 {
+  background-color: lightblue;
+}
+#circle3 {
+  background-color: lightsalmon;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
 }
 
 .btn1 {
@@ -118,21 +135,24 @@ h1 {
 
 .btn2 {
   width: 50%;
-  height: 100%;
+  height: 120%;
   background: none;
   border-radius: 30px 0px 0px 30px;
   border-top: 1px solid #c8c8c8;
   border-bottom: 1px solid #c8c8c8;
   border-right: none;
   border-left: 1px solid #c8c8c8;
+  margin-top: 5px;
 }
 
-.btn2:hover {
+.btn2:hover .btn3:hover {
   background-color: #c8c8c8;
 }
 
 .line {
+  height: 50%;
   border: 1px solid #c8c8c8;
+  align-self: flex-end;
 }
 .btn3 {
   border-radius: 0px 30px 30px 0px;
@@ -142,11 +162,8 @@ h1 {
   border-left: none;
   background: none;
   width: 50%;
-  height: 100%;
-}
-
-.btn3:hover {
-  background-color: #c8c8c8;
+  height: 120%;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 1000px) {
