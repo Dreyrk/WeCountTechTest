@@ -19,16 +19,16 @@ main {
 }
 
 .cardContainer {
-  height: 60%;
-  width: 100%;
+  height: 470px;
+  width: 700px;
   display: flex;
   justify-content: center;
 }
 
 .card {
   margin: 0;
-  width: 40%;
-  height: 55%;
+  width: 600px;
+  height: 350px;
   padding: 4%;
   padding-top: 4%;
   background-color: #ffffff;
@@ -168,8 +168,8 @@ svg {
 
 @media screen and (max-width: 550px) {
   .cardContainer {
-    height: 40%;
-    width: 90%;
+    height: 250px;
+    width: 500px;
   }
   .card {
     height: 90%;
@@ -199,7 +199,7 @@ svg {
 
 @media screen and (min-width: 550px) and (max-width: 750px) {
   .card {
-    height: 70%;
-    width: 100%;
+    height: 320px;
+    width: 550px;
   }
 }
